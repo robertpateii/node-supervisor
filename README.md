@@ -66,8 +66,10 @@ pull requests which weren't accepted at the time of forking:
       supervisor myapp.js
       supervisor myapp.coffee
       supervisor -w scripts -e myext -x myrunner myapp
+      supervisor -w scripts -i views -e myext -x myrunner myapp
       supervisor -w lib,server.js,config.js server.js
       supervisor -- server.js -h host -p port
+      supervisor --ignore views --no-restart-on error --debug --quiet app.js
 
 
 ## Simple Install
