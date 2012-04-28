@@ -6,6 +6,12 @@ behavior, without worrying about memory leaks and making sure you
 clean up all the inter-module references, and without a whole new
 `require` system.
 
+# This Fork
+This is node-supervisor forked at 0.3.0 and merged with two great
+pull requests which weren't accepted at the time of forking:
+[debug flag for node](https://github.com/isaacs/node-supervisor/pull/50) and [ignore directory feature](https://github.com/isaacs/node-supervisor/pull/41).
+
+
 ## node-supervisor -?
 
 
