@@ -32,6 +32,9 @@ pull requests which weren't accepted at the time of forking:
         When a change to a js file occurs, reload the program
         Default is '.'
 
+      -i|--ignore <ignoreDirectory>
+        Ignore changes within a particular directory
+
       -e|--extensions <extensions>
         Specific file extensions to watch in addition to defaults.
         Used when --watch option includes folders
